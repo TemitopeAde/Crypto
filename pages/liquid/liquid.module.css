@@ -1,0 +1,97 @@
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexbox {
+    background: #323A47;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.flex2 svg {
+    fill: #F0B90B80;
+    font-size: 20px;
+}
+
+.flex2 p,
+.flex2 svg {
+    color: #F0B90B;
+}
+
+.topItem .select {
+    color: #FFFFFF;
+}
+
+.caret,
+.collapsed2 {
+    background: #F0B90B;
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2 .caret svg {
+    fill: #FFFFFF;
+    cursor: pointer;
+}
+
+.flex2 svg {
+    cursor: pointer;
+}
+
+.flex2 {
+    column-gap: 10px;
+}
+
+.collapsed1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 7px;
+}
+
+.collapsed1 p {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.collapsed1 svg {
+    fill: #F0B90B
+}
+
+.collapsed2 svg {
+    fill: #FFFFFF;
+}
+
+.collapsedItems {
+    padding-top: 15px;
+}
+
+.topItem {
+    border-bottom: .1px solid #e9dfdf;
+}
+
+.hover {
+    background: #4E5663;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.collapsedFlex {
+    padding: 0 5px;
+}
+
+.open {
+    display: block;
+}
+
+.close {
+    display: none;
+}

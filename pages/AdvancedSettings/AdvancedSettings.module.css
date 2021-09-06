@@ -1,0 +1,235 @@
+.flexItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #323A47;
+    border-radius: 20px;
+    padding: 0 .5rem;
+    margin-bottom: .5rem;
+}
+
+.settings1 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    align-items: center;
+    
+}
+
+.settings1 p {
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+
+.flex {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.settings1 svg {
+    font-size: 20px;
+}
+
+.settings2 svg {
+    fill: rgb(255, 255, 255) !important;
+    font-size: 20px;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggleOn {
+    display: block;
+}
+
+.settings2 {
+    background: #F0B90B;
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flexItem .flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexItem .flex2 p {
+     font-size: 20px;
+     font-weight: 500;
+     color: #F0B90B80;
+     margin-right: 10px;
+}
+
+.flexItem .flex2 svg {
+    fill: #F0B90B80;
+    font-size: 20px;
+}
+
+.flexContainer {
+    background: #323A47;
+    border-radius: 24px;
+    /* padding-bottom: 5px; */
+    margin-bottom: .5rem;
+}
+
+.flexContainer form {
+    padding-left: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttonActive svg {
+    font-size: 11px;
+    fill: #F0B90B;
+    margin-left: 5px;
+}
+
+.buttonActive {
+    background: #191C22;
+    color: #FFFFFF;
+    height: 30px;
+    width: 130px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    /* border:1px solid #F0B90B;  */
+    cursor: pointer;
+    /* border: 2px solid rgba(240, 185, 11, 0.75);
+    border-radius: 10px 0px 0px 10px; */
+}
+
+.button {
+    background: #F0B90B;
+    color: #FFFFFF;
+    height: 30px;
+    width: 130px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border:1px solid #F0B90B; 
+    cursor: pointer;
+}
+
+.formWrap {
+    padding: 1.9rem
+}
+
+.formInput input {
+    height: 30px;
+    width: 130px;
+    outline: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #191C22;
+    color: #FFFFFF;
+    border: none;
+}
+
+.flex2 svg {
+    cursor: pointer;
+}
+
+.buttonSlippageActive {
+    background: #F0B90B; 
+    cursor: pointer;
+}
+
+.buttonSlipage {
+    background: #191C22;
+    cursor: pointer;
+}
+
+.slipButton {
+    height: 30.69642639160156px;
+    width: 55.81226348876953px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    outline: none;
+    /* border: 2px solid rgba(240, 185, 11, 0.75);
+    border-radius: 10px 0px 0px 10px; */
+} 
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+@media only screen and (min-width:768px){
+    .settings1 p {
+        font-size: 30px;
+    }
+    .settings1 svg {
+        font-size: 30px;
+    }
+    .settings2 svg {
+        font-size: 30px;
+    }
+    .settings2 {
+        width: 50px;
+        height: 50px;
+    }
+    .flexItem .flex2 p {
+        font-size: 30px;
+    }
+    .flexItem .flex2 svg {
+        fill: #F0B90B80;
+        font-size: 30px;
+    }
+    .buttonActive {
+        height: 80px;
+        width: 200px;
+        font-size: 24px;
+    }
+    
+    .button {
+        height: 80px;
+        width: 200px;
+        font-size: 24px;
+    }
+    .buttonActive svg {
+        font-size: 15px;
+    }
+    .formInput input {
+        height: 80px;
+        width: 200px;
+    }
+    .slipButton {
+        height: 55.69642639160156px;
+        width: 55.81226348876953px;
+        /* border: 2px solid rgba(240, 185, 11, 0.75);
+        border-radius: 10px 0px 0px 10px; */
+    } 
+}
