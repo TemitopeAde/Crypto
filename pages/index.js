@@ -4,15 +4,19 @@ import styles from '../styles/Home.module.css'
 import Advanced from './advanced/advanced'
 import Liquid from './liquid/liquid'
 import AdvancedSettings from './AdvancedSettings/AdvancedSettings';
+import CustomizedSlider from './Slider/slider'
+
 
 export default function Home() {
   return (
     <div>
       {/* <Advanced /> */}
 
-      <Liquid />
+      {/* <Liquid /> */}
 
       {/* <AdvancedSettings /> */}
+
+      <CustomizedSlider />
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import React, {useState,useEffect} from 'react';
-import styles from './advanced.module.css';
 import {FaCheck } from "react-icons/fa";
 import {BsInfoCircleFill,BsFillCaretDownFill, BsFillCaretUpFill,BsCaretRightFill} from "react-icons/bs";
 import {GiSevenPointedStar} from "react-icons/gi";
+
+import styles from './advanced.module.css';
 
 const Advanced = () => {
 
@@ -41,7 +42,6 @@ const Advanced = () => {
     return (
         <div className={styles.advancedcontainer}>
             <div className={styles.flex}>
-
                 {/* SETTINGS ITEM START */}
                 <div className={styles.flexContainer}>
                     <div className={styles.flexItem}>

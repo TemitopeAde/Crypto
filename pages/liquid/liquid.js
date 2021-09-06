@@ -10,10 +10,7 @@ const Liquid = () => {
     const [ishover,setIsHover] = React.useState(false);
     const [info, setinfo] = React.useState(data);
     const [showItem, setShowItem] = React.useState(false);
-    
 
-
-    if (showItem) {
         return (
             <div className={styles.container}>
                 {
@@ -33,7 +30,7 @@ const Liquid = () => {
                                     </div>
                                 </div>
     
-                                {
+                                {showItem && (
                                     children.map((child,index) => {
                                         const {title,id} = child
                                         return (
@@ -56,38 +53,13 @@ const Liquid = () => {
                                             
                                         )
                                     })
-                                }
+                                )}
                             </div>
                         )
                     })
                 }
             </div>
         )
-    }
-
-
-    return (
-        <div className={styles.container}>
-            {info.map((item,index) => {
-                const {id,title,children} = item;
-                return (
-                    <div className={styles.flexbox} key={id}>
-                        <div className={`${styles.flexBetween} ${styles.topItem}`}>
-                            <p className={styles.select}>{title}</p>
-
-                            <div className={`${styles.flexBetween} ${styles.flex2}`}>
-                                <p>Expand</p>
-                                <BsFillCaretDownFill  onClick={() => setShowItem(!showItem)} />
-                                <div className={styles.caret}>
-                                    <FaCheck />
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                )
-            })}
-        </div>
-    )
 }
 
 export default Liquid
